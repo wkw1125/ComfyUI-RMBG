@@ -43,6 +43,34 @@ MODEL_CONFIG = {
         "max_res": 2048,
         "min_res": 512
     },
+    "BiRefNet-evideo-general": {
+        "repo_id": "1038lab/BiRefNet",
+        "files": {
+            "birefnet.py": "birefnet.py",
+            "BiRefNet_config.py": "BiRefNet_config.py",
+            "BiRefNet-evideo-general.safetensors": "BiRefNet-evideo-general.safetensors",
+            "config.json": "config.json"
+        },
+        "cache_dir": "BiRefNet",
+        "description": "General purpose model trained by evideo",
+        "default_res": 1024,
+        "max_res": 2048,
+        "min_res": 512
+    },
+    "BiRefNet-evideo-general-HR": {
+        "repo_id": "1038lab/BiRefNet",
+        "files": {
+            "birefnet.py": "birefnet.py",
+            "BiRefNet_config.py": "BiRefNet_config.py",
+            "BiRefNet-evideo-general.safetensors": "BiRefNet-evideo-general.safetensors",
+            "config.json": "config.json"
+        },
+        "cache_dir": "BiRefNet",
+        "description": "High resolution general purpose model trained by evideo",
+        "default_res": 2048,
+        "max_res": 2560,
+        "min_res": 1024
+    },
     "BiRefNet_512x512": {
         "repo_id": "1038lab/BiRefNet",
         "files": {
