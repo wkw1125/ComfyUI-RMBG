@@ -71,6 +71,20 @@ MODEL_CONFIG = {
         "max_res": 2560,
         "min_res": 1024
     },
+    "BiRefNet-evideo-HR-matting": {
+        "repo_id": "1038lab/BiRefNet",
+        "files": {
+            "birefnet.py": "birefnet.py",
+            "BiRefNet_config.py": "BiRefNet_config.py",
+            "BiRefNet-evideo-HR-matting.safetensors": "BiRefNet-evideo-HR-matting.safetensors",
+            "config.json": "config.json"
+        },
+        "cache_dir": "BiRefNet",
+        "description": "High resolution matting model trained by evideo",
+        "default_res": 2048,
+        "max_res": 2560,
+        "min_res": 1024
+    },
     "BiRefNet_512x512": {
         "repo_id": "1038lab/BiRefNet",
         "files": {
